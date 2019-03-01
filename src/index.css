@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  background-color: rgb(206, 150, 150);
+  margin: 2;
+  padding: 4;
+  font-family: Roboto;
+  font-weight: 2000;
+  height: 98%;
+}
+
+#root {
+  height: 100%;
+}
+
+@media (min-width: 400px) and (min-height: 400px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 500px) {
+  html {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 500px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 800px) and (min-height: 800px) {
+  html {
+    font-size: 60px;
+  }
+}
